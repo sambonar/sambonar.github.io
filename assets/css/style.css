@@ -97,13 +97,6 @@ p {
   color: #121212;
   margin: 0px; }
 
-p2 {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #121212;
-  margin: 0px; }
-
 .bg_cover {
   background-position: center center;
   background-size: cover;
@@ -1015,7 +1008,6 @@ p2 {
   display:flex;
   align-content: center;
   justify-content:center;
-  height: auto;
 }
 
 .logo {
@@ -1333,7 +1325,7 @@ p2 {
 .about-area {
   position: relative;
   background-color: #f4f6f7;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 100px; }
   .about-area .section-title .title {
     font-size: 44px;
@@ -2384,26 +2376,6 @@ p2 {
 .hero-logo-text {
   width:300px;
 }
-
-    @media (max-width: 375px) {
-
-            .hero-logo-container {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .hero-logo-img {
-                width: 50px;
-                margin-bottom: 6px;
-            }
-
-            .hero-logo-text {
-                width: 200px;
-
-            }
-        }
 
 
 @media (max-width: 767px) { 
