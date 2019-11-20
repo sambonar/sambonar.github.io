@@ -2,7 +2,44 @@
 <html lang="en">
 
 <head>
+       <!--====== Added this to correct the problem with the logo in the navbar ======-->
+    <style>
+        .hero-logo-container {
+            display: flex;
+            flex-direction: column;
+            margin: 40px 0;
+            align-items: center;
+        }
 
+        .hero-logo-img {
+            width: 90px;
+            margin-bottom: 20px;
+        }
+
+        .hero-logo-text {
+            width: 300px;
+        }
+
+        @media (max-width: 375px) {
+
+            .hero-logo-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .hero-logo-img {
+                width: 50px;
+                margin-bottom: 6px;
+            }
+
+            .hero-logo-text {
+                width: 200px;
+
+            }
+        }
+    </style>
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
