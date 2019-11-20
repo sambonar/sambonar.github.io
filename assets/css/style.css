@@ -2379,3 +2379,27 @@ p2 {
     color: #222222;
   }
 }
+
+ .hero-logo-img {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-logo-text {
+    width:150px;
+  }
+
+  .slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
+    font-size: 26px !important;
+    line-height: 28px !important;
+  }
+
+  .mobile-hero-container {
+    margin: 40px 0;
+  }
+}
+
+.slider-area .bd-example .carousel .carousel-inner .carousel-item .carousel-caption .carousel-title {
+  font-size: 34px;
+  line-height: 36px;
+}
