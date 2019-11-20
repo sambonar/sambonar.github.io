@@ -2385,6 +2385,26 @@ p2 {
   width:300px;
 }
 
+    @media (max-width: 375px) {
+
+            .hero-logo-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .hero-logo-img {
+                width: 50px;
+                margin-bottom: 6px;
+            }
+
+            .hero-logo-text {
+                width: 200px;
+
+            }
+        }
+
 
 @media (max-width: 767px) { 
   .benefits-tiles {
