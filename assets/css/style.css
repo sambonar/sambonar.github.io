@@ -2369,6 +2369,22 @@ p2 {
   width:16px;
 }
 
+.hero-logo-container {
+  display:flex;
+  flex-direction: column;
+  margin: 40px 0;
+  align-items:center;
+}
+
+.hero-logo-img {
+  width: 90px;
+  margin-bottom: 20px;
+}
+
+.hero-logo-text {
+  width:300px;
+}
+
 
 @media (max-width: 767px) { 
   .benefits-tiles {
@@ -2378,9 +2394,8 @@ p2 {
   .navbar-area .navbar .navbar-nav .nav-item a {
     color: #222222;
   }
-}
 
- .hero-logo-img {
+  .hero-logo-img {
     width: 60px;
     margin-bottom: 10px;
   }
